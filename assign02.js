@@ -6,4 +6,4 @@ function shoppingcart(index, delete01, add) {
     shopitems.splice(index, delete01, add);
     console.log(shopitems);
 }
-shoppingcart(1, 0, "milk pak");
+shoppingcart(shopitems.length, 0, "milk pak");
